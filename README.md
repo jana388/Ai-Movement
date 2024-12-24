@@ -61,8 +61,8 @@ Now we will go to the `Start void` and type in the rb component for the rigidbod
 After that, I would like to save the script and head back to Unity.
 
 Since we want our player to lead the npc, we will use a tag method in the code. To connect the Ai script with the Player one, I will add a tag to the player and name it `Player`.
+![Screenshot (365)q](https://github.com/user-attachments/assets/49e977f3-629f-4924-a80b-4b0f7b38ed61)
 
-![Screenshot (365)](https://github.com/user-attachments/assets/2d1a962f-3347-4635-8878-5187987040b7)
 
 Having done this, we can return to Visual studio and add this line
 
@@ -70,6 +70,7 @@ Having done this, we can return to Visual studio and add this line
 
 Later we will go to the Update void, because we want this action to be constantly updated by the computer
 ![Screenshot 2024-12-23 042823](https://github.com/user-attachments/assets/132a2824-6d0c-4c5d-8b36-6e87e7e18c6a)
+
 
 
 
