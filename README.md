@@ -65,6 +65,8 @@ Since we want our player to lead the npc, we will use a tag method in the code. 
 
 
 Having done this, we can return to Visual studio and add this line
+We are using Tag so we can recall the Players script and connect Ai object with the Player.
+Remember to use the exact same name of the object, because if not naming it correctly, the Tag would not be possible.
 
 ![Screenshot 2024-12-23 042147](https://github.com/user-attachments/assets/b27de3f5-b978-4e70-ae8c-055bdbaa5495)
 
