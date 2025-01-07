@@ -97,7 +97,7 @@ Since we want our player to lead the Ai, we will use a **tag method** in the cod
 
 Having done this, we can return to Visual studio and add this line
 > We are using Tag so we can recall the Players script and connect Ai object with the Player.
-
+>
 > Remember to use the exact same name of the object, because if not naming it correctly, the Tag would not be possible!
 
 ![Screenshot 2024-12-23 042147](https://github.com/user-attachments/assets/b27de3f5-b978-4e70-ae8c-055bdbaa5495)
@@ -107,10 +107,15 @@ Later we will go to the `Update void`, because we want this action to be constan
 ![Screenshot 2024-12-23 042823](https://github.com/user-attachments/assets/132a2824-6d0c-4c5d-8b36-6e87e7e18c6a)
 
 > In this code line of script, we are comparing the position of the Player with the position of the Ai
+> 
 > We are using the z axis since we want the players to move left and right
+> 
 > This means that if the *Player* is moving to the right (in code `forward` for z axis), the *Ai* will move to the right
+> 
 > We are using `else if` because if the first condition is not right we want the second one to count
+> 
 > So if the *Player* is moving to the left (in code `back` for z axis), the *Ai* will also move to the left
+> 
 > If none of these conditions are true (hence the `else`) or the *Player* is not moving at all, the *Ai* will not move either
 
 If you managed to get this code right, you are good to go!
