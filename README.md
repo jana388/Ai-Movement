@@ -4,7 +4,7 @@
 So you would like to have an NPC in your 3D game that will follow you while you move?
 This is a tutorial for you!
 
-It is very simple and requires just a few lines of code.
+It is very simple and requires just a few lines of code!
 
 This is the what the final output looks like:
 
